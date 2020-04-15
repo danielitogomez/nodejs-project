@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "name": "dockernodejsproject",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "danielitogomez",
+  "license": "github",
+  "description": "Sample NodeJS Project with Express FrameWork and Running in Docker Container"
+}
