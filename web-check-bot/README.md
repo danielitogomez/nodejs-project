@@ -1,5 +1,5 @@
 ## Website status check Telegram Bot
-If you want to deploy a bot in minutes for review status of your periodically the status of your Web site.
+If you want to deploy a bot in minutes for review periodically the status of your Web site.
 
 ## Requirements
 To have [node](https://nodejs.org/en/) installed on your OS..<br/>
