@@ -2,7 +2,7 @@ var axios = require('axios');
 
 var config = {
   method: 'get',
-  url: 'https://www.helloworld-it.com',
+  url: 'https://www.helloworld-it.com/',
   headers: { }
 };
 

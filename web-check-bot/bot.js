@@ -6,6 +6,7 @@ const bot = new TeleBot({
 
 const { execFile } = require('child_process');
 var request;
+var url = 'https://www.helloworld-it.com/';
 const child = execFile('node', ['request.js'], (error, stdout, stderr) => {
   if (error) {
     console.error(error, stderr);
@@ -17,12 +18,12 @@ const child = execFile('node', ['request.js'], (error, stdout, stderr) => {
 
 bot.on(["/help"], (msg) => {
   console.log(msg);
-  bot.sendMessage(msg.from.id, `Hi ${msg.chat.username} how are you? Do you want see the status of you web site? Write: /request`);
+  bot.sendMessage(msg.from.id, `Hi ${msg.chat.username} how are you? Do you want see the status of you web site? Write: /status`);
 });
 
-bot.on(["/request"], (msg) => {
+bot.on(["/status"], (msg) => {
   console.log(msg);
-  bot.sendMessage(msg.from.id, `Your status request is ${request} See you ${msg.chat.username} Bye`);
+  bot.sendMessage(msg.from.id, `Your web site ${url} get ${request} status. See you ${msg.chat.username} Bye!!!`);
 });
 
 bot.start();
