@@ -1,7 +1,7 @@
 {
   "name": "web-check-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "If you want to deploy a bot in minutes for review periodically the status of your Web site.",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

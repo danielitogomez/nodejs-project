@@ -16,7 +16,7 @@ const child = execFile('node', ['request.js'], (error, stdout, stderr) => {
   console.log(stdout);
 });
 
-bot.on(["/help"], (msg) => {
+bot.on(["/help", "/start"], (msg) => {
   console.log(msg);
   bot.sendMessage(msg.from.id, `Hi ${msg.chat.username} how are you? Do you want see the status of you web site? Write: /status`);
 });
