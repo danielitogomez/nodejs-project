@@ -23,7 +23,7 @@ bot.on(["/help"], (msg) => {
 
 bot.on(["/status"], (msg) => {
   console.log(msg);
-  bot.sendMessage(msg.from.id, `Your web site ${url} get ${request} status. See you ${msg.chat.username} Bye!!!`);
+  bot.sendMessage(msg.from.id, `Your web site ${url} get ${request} status. Bye ${msg.chat.username}!!!`);
 });
 
 bot.start();
