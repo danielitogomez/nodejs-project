@@ -1,0 +1,25 @@
+{
+  "name": "web-check-bot",
+  "version": "1.0.0",
+  "description": "web check bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielitogomez/nodejs-project.git"
+  },
+  "author": "danielitogomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielitogomez/nodejs-project/issues"
+  },
+  "homepage": "https://github.com/danielitogomez/nodejs-project#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-cron": "^2.0.3",
+    "telebot": "^1.4.1",
+    "telegraf": "^4.1.2"
+  }
+}
